@@ -1,0 +1,736 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* 搜索栏 */
+.sousuo{
+    /* padding-top: 180px; */
+    width:100%;
+    height:60px;
+    background-color: #1c1c1c;
+    /* background-color: rgb(0, 0, 0);
+    opacity: 0.5; */
+}
+
+
+/* 上角logo */
+.logo {
+    height:50px;
+    width: 12%;
+    margin: 5px;
+    float: left;
+}
+
+
+
+/* 搜索框和搜索按钮 */
+.sousuo1{
+    width: 50%;
+    height: 50px;
+    background-color : #1c1c1c;
+    float: left;
+    margin: 5px;
+}
+
+
+
+/* 搜索框 */
+.input1 {
+    margin: 9px;
+    border: 1px solid rgb(154, 153, 153);
+    border-radius: 5px;
+    font-size: 18px;
+    float: left;
+    background-color:#1c1c1c;
+    color: rgb(255, 255, 255);
+}
+
+/* 搜索按钮 */
+.button1{
+    background-color:#5498c0;
+    color:white;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;			
+    border-radius: 5px;
+    margin: 9px;
+    float: left;
+    border: 1px solid rgb(144, 144, 144);
+}
+
+.button1:hover{
+    background-color: #a54b4a;
+}
+
+
+/* 右上角-加入按钮 */
+.tel {
+    background-color:#3b3b3b;
+    color:white;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid rgb(88, 87, 87);			
+    border-radius: 5px;
+    margin: 15px 5px;
+    float: right;
+    font-weight: 900;
+    text-align: center;
+
+
+}
+
+.tel:hover{
+    background-color: #a54b4a;
+    width: 100px;
+    height: 40px;
+
+}
+
+
+
+
+.zuodaohanglan {
+    width: 15%;
+    height: 700px;
+    /* background-color: #5498c0; */
+    float: left;
+    position:fixed;
+    
+
+
+}
+
+.zuodaohanglan1 {
+    width: 90%;
+    height: 620px;
+    background-color: #1c1c1c;
+    float: left;
+    margin: 100px 100px 110px 0px;
+    border: 1px solid rgb(87, 87, 87);
+}
+
+.zuodaohanglan-web {
+    width: 80%;
+    height: 40px;
+    display: block;
+    color: rgb(233, 232, 232);
+    text-decoration: none;
+    background-color : #3e3e3e;
+    border-radius: 5px;
+    float: left;
+    margin: 10px 0px 0px 15px ;
+    border: 1px solid rgb(108, 108, 108);
+    font-weight: 600;
+}
+
+.zuodaohanglan-web:hover {
+    background-color: #555;
+    color: white;
+    width: 90%;
+}
+
+
+.tongzhi {
+    width: 70%;
+    height: 530px;
+    float:left;
+    margin-top: 60px;
+    margin-left: 15%;
+}
+
+
+
+
+
+
+
+.text{
+    margin-top: 100px;
+    margin-left: 20px;
+    font-family: 'fangsong';
+    display: inline-block;
+    position: relative;
+    font-size: 80px;
+    line-height: 60px;
+    color: rgb(239, 239, 239);
+
+}
+
+
+.text::after{
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 5px;
+    height: 50px;
+    width: 3px;     
+    background-color: rgb(232, 222, 222);
+    animation: san 0.5s steps(1) infinite;
+}
+
+@keyframes san{
+    0%,100%{
+        background-color: rgb(0, 0, 0);
+    }
+    50%{
+       background-color: transparent;
+    }
+
+}
+
+
+
+
+
+
+
+
+.ziwangye {
+    width: 70%;
+    height: 1900px;
+
+    margin-left: 15%;
+}
+
+
+
+
+.id-me {
+    width: 22%;
+    height: 720px;
+    background-color: #1c1c1c;
+    float: right;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.masike-img {
+    width: 230px;
+    height: 230px;
+
+}
+
+
+
+
+/* 右上角-加入按钮 */
+.tesilagongkaixiangmu-web {
+    background-color:#3b3b3b;
+    color:white;
+    width: 160px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid rgb(88, 87, 87);			
+    border-radius: 5px;
+    margin: 15px 23px;
+    float: left;
+    font-weight: 900;
+    padding: 10px 0px 0px 30px;
+
+
+
+}
+
+.tesilagongkaixiangmu-web:hover{
+    background-color: #a54b4a;
+    color: #1c1c1c;
+
+
+}
+
+
+
+/* 平面设计功能栏 */
+.pingmianshiji {
+    width:75%;
+    height: 300px;
+    background-color: #262626;
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(136, 136, 136);
+    float: left;
+}
+
+.pingmianshiji1 {
+    width: 300px;
+    height: 300px;
+    background: url('/img/pingmianshiji-img.jpg');
+    border-radius: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    float: left;
+
+}
+
+/* .pingmianshiji1-h3 {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #292929;
+    color: #ffffff;
+    border: 1px solid rgb(136, 136, 136);
+    margin-top: 130px;
+    margin-left: 5px;
+    font-size: 20px;
+
+
+} */
+
+
+.pingmianshiji2 {
+    width: 10%;
+    height: 300px;
+    background-color: rgb(217, 217, 217);
+    margin-left: 300px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pingmianshiji2-zi {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+.pingmianshiji3 {
+    width: 50%;
+    height: 50px;
+    background-color: #232323;
+    float: left;
+    border-radius: 10px;
+    margin: 8px 10px 0px 0px;
+    border: 1px solid rgb(64, 64, 64);
+}
+
+
+
+.pingmianshiji-web {
+    width: 70px;
+    height: 30px;
+    display: block;
+    color: rgb(207, 206, 206);
+    text-decoration: none;
+    background-color : #242424;
+    border-radius: 10px;
+    float: left;
+    font-size: 1px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 5px;
+}
+
+
+/* Change the 1link color on hover */
+.pingmianshiji-web:hover {
+    background-color: rgb(81, 121, 143);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.yingshibianji {
+    width: 75%;
+    height: 200px;
+    background-color: #262626;
+    border-radius: 10px;
+    border: 1px solid rgb(145, 145, 145);
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
+.yingshibianji1 {
+    width: 180px;
+    height: 200px;
+    background: url('/img/yingpin-img.jpg');
+    border-radius: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 620px;
+}
+
+.yingshibianji1-h3 {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #452727;
+    color: #ffffff;
+    border: 1px solid rgb(136, 136, 136);
+    margin-top: 80px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.yingshibianji2 {
+    width: 10%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.yingshibianji3 {
+    width: 65%;
+    height: 50px;
+    background-color: #232323;
+    float: left;
+    border-radius: 10px;
+    margin: 10px 10px 0px 0px;
+    border: 1px solid rgb(64, 64, 64);
+}
+
+
+
+.yingshibianji-web {
+    width: 120px;
+    height: 40px;
+    display: block;
+    color: rgb(197, 196, 196);
+    text-decoration: none;
+    background-color : #252525;
+    border-radius: 5px;
+    float: left;
+    font-weight: 600;
+}
+
+
+/* Change the 1link color on hover */
+.yingshibianji-web:hover {
+    background-color: rgb(83, 131, 161);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+.a3Dshiji {
+    width: 75%;
+    height: 200px;
+    background-color: #2d2d2d;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(130, 130, 130);
+    float: left;
+}
+
+.a3Dshiji1 {
+    width: 180px;
+    height: 200px;
+    background: url('/img/3d.jpg');
+    border-radius: 10px;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.a3Dshiji-h3 {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #292929;
+    color: #ffffff;
+    border: 1px solid rgb(136, 136, 136);
+    margin-top: 80px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.a3Dshiji2 {
+    width: 10%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 180px;
+    font-weight: 800;
+}
+
+.a3Dshiji3 {
+    width: 60%;
+    height: 50px;
+    background-color: #232323;
+    float: left;
+    border-radius: 10px;
+    margin: 10px 10px 0px 0px;
+    border: 1px solid rgb(70, 70, 70);
+}
+
+
+
+.a3Dshiji-web {
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+    background-color : #2c2c2c;
+    border-radius: 10px;
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+
+/* Change the 1link color on hover */
+.a3Dshiji-web:hover {
+    background-color: rgb(47, 111, 163);
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* 平面设计功能栏 */
+.kaifazhipingtai {
+    width: 98%;
+    height: 1200px;
+    background-color: #2f2f2f;
+    border-radius: 10px;
+    border: 1px solid rgb(110, 110, 110);
+    float: left;
+    margin: 200px 0px;
+}
+
+.kaifazhipingtai1 {
+    width: 400px;
+    height: 300px;
+    background: url('/img/kaifazhipingtai-img.jpg');
+    border-radius: 10px;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.kaifazhipingtai1-h3 {
+    width: 60%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #8abedc;
+    color: #000000;
+    margin: 90px 20px;
+    padding: 30px 50px;
+    text-align: center;
+
+
+}
+
+
+.kaifazhipingtai2 {
+    width: 10%;
+    height: 350px;
+    background-color: #ffffff;
+    float: left;
+    text-align: center;
+    margin-left: 400px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+
+.kaifazhipingtai3 {
+    width: 51%;
+    height: 160px;
+    background-color: #232323;
+    float: left;
+    border-radius: 30px;
+    margin: 10px 0px 20px 0px;
+}
+
+
+
+.kaifazhipingtai3-web {
+    width: 90px;
+    height: 30px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color : #8bc4e7;
+    border-radius: 5px;
+    float: left;
+    font-size: 15px;
+    margin: 5px;
+    font-weight: 600;
+}
+
+
+/* Change the 1link color on hover */
+.kaifazhipingtai3-web:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
+
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+
+}
+    
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+}
+  
+
+
+
+
+.footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+    
+.footer .row a:hover{
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer .row ul{
+    width:100%;
+}
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+    
+    
+
+.end {
+    width: 100%;
+    float: left;
+}
+
+
+
+
+.kaifazhipingtai4 {
+    width: 98%;
+    height: 400px;
+    background-color: #4ccf64;
+    float: left;
+    margin: 50px 10px 0px 0px;
+}
+
+.kaifazhipingtai4-zi {
+    width: 15%;
+    height: 370px;
+    background-color: #5d5b5b;
+    color: #fbfbfb;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+
+.kaifazhipingtai4-2 {
+    width: 100%;
+    height: 350px;
+}
+
+.kaifazhipingtai4-web-kuangjia {
+    width: 100%;
+    height: 42px;
+
+}
+
+
+.kaifazhipingtai4-web {
+    width: auto;
+    height: 25px;
+    padding:3px 3px;
+    border-radius: 5px;
+}
+
+.kaifazhipingtai4-web:hover {
+    height: 30px;
+    background-color: #555;
+    color: white;
+}
+
+
+.kaifazhipingtai5 {
+    width: 100%;
+    height: 300px;
+    background-color: #4ccf64;
+    float: left;
+    margin-top: 50px;
+}
+
+.kaifazhipingtai5-zi {
+    width: 10%;
+    height: 200px;
+    background-color: #5a5a5a;
+    float: left;
+    margin: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+
+.kaifazhipingtai5-web-kuangjia {
+    width:auto;
+    height: 40px;
+    margin-top: 3px;
+
+}
+
+.kaifazhipingtai5-web {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+.kaifazhipingtai5-web:hover {
+    height: 40px;
+    background-color: #555;
+    color: white;
+}
